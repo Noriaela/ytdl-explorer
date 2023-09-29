@@ -36,3 +36,17 @@ Windows Registry Editor Version 5.00
 
 [HKEY_CLASSES_ROOT\*\shell\ffmpeg\shell\video_mp4\command]
 @="powershell.exe -Command ffmpeg -i '%1' '%1_conv.mp4'"
+
+[HKEY_CLASSES_ROOT\*\shell\ffmpeg\shell\image_png]
+@="Convert to PNG"
+"Icon"="imageres.dll,108"
+
+[HKEY_CLASSES_ROOT\*\shell\ffmpeg\shell\image_png\command]
+@="powershell.exe -Command ffmpeg -i '%1' '%1_conv.png'"
+
+[HKEY_CLASSES_ROOT\*\shell\ffmpeg\shell\image_jpg]
+@="Convert to JPG"
+"Icon"="imageres.dll,108"
+
+[HKEY_CLASSES_ROOT\*\shell\ffmpeg\shell\image_jpg\command]
+@="powershell.exe -Command ffmpeg -i '%1' '%1_conv.jpg'"
