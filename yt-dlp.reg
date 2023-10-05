@@ -21,7 +21,7 @@ Windows Registry Editor Version 5.00
 [HKEY_CLASSES_ROOT\Directory\Background\shell\YT-DLP\shell\a_h264\shell\a_best]
 @="Best quality"
 [HKEY_CLASSES_ROOT\Directory\Background\shell\YT-DLP\shell\a_h264\shell\a_best\command]
-@="powershell.exe -Command yt-dlp --cookies-from-browser firefox $(Get-Clipboard) --continue --no-check-certificate --format=bestvideo+bestaudio[ext=m4a]/best --merge-output-format=mp4 \" && pause"
+@="powershell.exe -Command yt-dlp --cookies-from-browser firefox $(Get-Clipboard) --continue --no-check-certificate --format=bestvideo+bestaudio[ext=m4a]/best --merge-output-format=mp4 \""
 [HKEY_CLASSES_ROOT\Directory\Background\shell\YT-DLP\shell\a_h264\shell\b_1080p]
 @="1080p"
 [HKEY_CLASSES_ROOT\Directory\Background\shell\YT-DLP\shell\a_h264\shell\b_1080p\command]
