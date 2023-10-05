@@ -13,7 +13,7 @@ Download videos from YouTube/Twitch/Twitter and more (any platform that is suppo
 
 
 ### Quick Note:
-If you're downloading things from Twitter I have the script use grab cookies from firefox.
+If you're downloading things from Twitter I have the script grab cookies from firefox.
 
 ### How to use it
 1. [Download the ZIP archive of this repository](https://github.com/noriaela/ytdl-explorer/archive/refs/heads/main.zip)
@@ -23,7 +23,7 @@ If you're downloading things from Twitter I have the script use grab cookies fro
 5. Right click on the empty space and choose your option
 6. Voilà!
 
-This script requires **youtube-dl** and **ffmpeg**.
+This script requires **yt-dlp** and **ffmpeg**.
 **To install [yt-dlp](https://github.com/yt-dlp/yt-dlp) and [ffmpeg](https://ffmpeg.org/):**
 
 Open a PowerShell as Administrator and run:
