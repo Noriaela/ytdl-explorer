@@ -21,15 +21,15 @@ Windows Registry Editor Version 5.00
 [HKEY_CLASSES_ROOT\Directory\Background\shell\YT-DLP\shell\a_h264\shell\a_best]
 @="Best quality"
 [HKEY_CLASSES_ROOT\Directory\Background\shell\YT-DLP\shell\a_h264\shell\a_best\command]
-@="powershell.exe -Command yt-dlp $(Get-Clipboard) --continue --no-check-certificate --format=bestvideo+bestaudio[ext=m4a]/best --merge-output-format=mp4 \""
+@="powershell.exe -Command yt-dlp --cookies-from-browser firefox $(Get-Clipboard) --continue --no-check-certificate --format=bestvideo+bestaudio[ext=m4a]/best --merge-output-format=mp4 \" && pause"
 [HKEY_CLASSES_ROOT\Directory\Background\shell\YT-DLP\shell\a_h264\shell\b_1080p]
 @="1080p"
 [HKEY_CLASSES_ROOT\Directory\Background\shell\YT-DLP\shell\a_h264\shell\b_1080p\command]
-@="powershell.exe -Command yt-dlp $(Get-Clipboard) --continue --no-check-certificate --format=bestvideo[height<=1080]+bestaudio[ext=m4a]/best --merge-output-format=mp4 -o '%%(title)s_1080.%%(ext)s' \""
+@="powershell.exe -Command yt-dlp --cookies-from-browser firefox $(Get-Clipboard) --continue --no-check-certificate --format=bestvideo[height<=1080]+bestaudio[ext=m4a]/best --merge-output-format=mp4 -o '%%(title)s_1080.%%(ext)s' \""
 [HKEY_CLASSES_ROOT\Directory\Background\shell\YT-DLP\shell\a_h264\shell\c_720p]
 @="720p"
 [HKEY_CLASSES_ROOT\Directory\Background\shell\YT-DLP\shell\a_h264\shell\c_720p\command]
-@="powershell.exe -Command yt-dlp $(Get-Clipboard) --continue --no-check-certificate --format=bestvideo[height<=720]+bestaudio[ext=m4a]/best --merge-output-format=mp4 -o '%%(title)s_720.%%(ext)s' \""
+@="powershell.exe -Command yt-dlp --cookies-from-browser firefox $(Get-Clipboard) --continue --no-check-certificate --format=bestvideo[height<=720]+bestaudio[ext=m4a]/best --merge-output-format=mp4 -o '%%(title)s_720.%%(ext)s' \""
 
 [HKEY_CLASSES_ROOT\Directory\Background\shell\YT-DLP\shell\b_dnxhr]
 @="Download video (DNxHR 25 FPS)"
