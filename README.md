@@ -26,7 +26,7 @@ If you're downloading things from Twitter I have the script grab cookies from fi
 This script requires **yt-dlp** and **ffmpeg**.
 **To install [yt-dlp](https://github.com/yt-dlp/yt-dlp) and [ffmpeg](https://ffmpeg.org/):**
 
-Open a PowerShell as Administrator and run:
+Open PowerShell
 ```
 Set-ExecutionPolicy RemoteSigned -Scope CurrentUser
 irm get.scoop.sh | iex
